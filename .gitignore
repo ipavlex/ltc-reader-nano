@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+._*
+
+# Тестовые LTC-WAV (≈29 МБ каждый) — генерируются отдельно, см. README
+*.wav
+
+# Захваты UART
+*.capture.txt
+ltc_uart_capture.txt
+/tmp/ltc_uart_capture.txt
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Артефакты сборки Arduino
+build/
+*.elf
+*.map
+
+# Редакторы
+.vscode/
+.idea/
+*.swp
