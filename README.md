@@ -133,9 +133,7 @@ LTC (SMPTE 12M) — таймкод, закодированный в аудио �
 
 ### Схема обвязки
 
-![Схема обвязки](scheme.svg.png)
-
-Исходник схемы — [`scheme.svg`](scheme.svg).
+![Схема обвязки](scheme.svg)
 
 ```
 Аудио вход ── C1 0.47uF ── R1 10k ──┬──► D7 (AIN1)
@@ -413,8 +411,7 @@ TC 01:00:12:01 fps=25
 │   ├── probe_reset.py           # захват UART после DTR-сброса
 │   ├── analyze_capture.py       # разбор UART-лога + авто-диагноз
 │   └── uart_probe.sh            # альтернативный захват (stty+cat)
-├── scheme.svg                   # схема обвязки (исходник)
-├── scheme.svg.png               # схема обвязки (растр)
+├── scheme.svg                   # схема обвязки
 ├── LICENSE                      # MIT
 └── README.md
 ```
