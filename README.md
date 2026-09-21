@@ -408,8 +408,6 @@ TC 01:00:12:01 fps=25
 .
 ├── ltc_reader_nano/
 │   └── ltc_reader_nano.ino      # основной скетч (блоки 1–9)
-├── max7219_test/
-│   └── max7219_test.ino         # тест 8-разрядного индикатора MAX7219
 ├── tools/
 │   ├── ltc_wav_check.py         # проверка декодера на WAV
 │   ├── probe_reset.py           # захват UART после DTR-сброса
